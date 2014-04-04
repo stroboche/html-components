@@ -1,0 +1,5 @@
+*.scssc
+*.swp
+.sass-cache/
+Thumbs.db
+.DS_Store
