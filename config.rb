@@ -9,13 +9,8 @@ javascripts_dir = "js/"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
-if environment == :production then
-    output_style = :compressed
-    css_dir = "css/compressed"
-else
-    output_style = :expanded
-    css_dir = "css/orig"
-end
+output_style = :compressed
+css_dir = "css/"
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true

@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: 1em;
+}
+
+p, form, dl, dd, form {
+    margin: 0;
+}
+
+ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+em{
+    font-style: normal;
+}
+
+b {
+    font-weight: normal;
+}
+
+img{
+    vertical-align: top;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section { 
+    display:block;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+hr {
+    outline: 0;
+    margin:0;
+    border:0;
+}

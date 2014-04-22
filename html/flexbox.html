@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="ja">
+<head>
+<title>flexbox</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi,maximum-scale=1.0,minimum-scale=1.0" />
+<link rel="stylesheet" href="../css/common.css" />
+<style type-"text/css">
+section.contents {
+    color: #fff;
+    font-size: 12px;
+}
+
+.center_box { margin: 0 auto; }
+
+.w120 { width: 120px; }
+.w180 { width: 180px; }
+.w240 { width: 240px; }
+.w480 { width: 480px; }
+
+.h120 { height: 120px; }
+.h180 { height: 180px; }
+.h240 { height: 240px; }
+
+.box_white { background: #fff; }
+.box_red   { background: #f00; }
+.box_green { background: #0f0; }
+.box_blue  { background: #00f; }
+
+</style>
+</head>
+<body>
+
+<section class="contents">
+
+<div class="w480 center_box box_white">
+    <ul class="holizon_box">
+        <li class="w120 h240 box_red">hoge</li>
+        <li class="flex">
+            <ul class="vertical_box h240">
+                <li class="h120 box_blue">piyo</li>
+                <li class="flex box_green">fuga</li>
+            </ul>
+        </li>
+        <li class="w120 box_red">hoge</li>
+    </ul>
+</div>
+
+</section>
+
+</body>
+</html>

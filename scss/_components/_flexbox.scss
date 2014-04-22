@@ -1,0 +1,21 @@
+.holizon_box {
+    @include display-flex(stretch, center);
+    &.start {
+        @include display-flex(flex-start, center);
+    }
+    &.center {
+        @include display-flex(center, center);
+    }
+    &.end {
+        @include display-flex(flex-end, center);
+    }
+}
+
+.vertical_box {
+    @include display-flex(stretch, center, column);
+}
+
+.flex {
+    @include flex(1);
+    @include word-break(break-all);
+}

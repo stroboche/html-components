@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* settings
+-------------------- */
+@import "reset";
+@import "setting";
+
+/* use css3
+-------------------- */
+@import "compass/css3";
+
+/* default
+-------------------- */
+html { height: 100%; }
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    background: #000;
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select:none;
+}
+
+/* outline text
+-------------------- */
+.ol_txt {
+    text-shadow: #000 0 0 1px, #000 1px 1px 1px, #000 -1px 1px 1px, #000 -1px -1px 1px, #000 1px -1px 1px;
+}
+
+/* align settings
+-------------------- */
+.align_center { text-align: center; }
+.align_left   { text-align: left; }
+.align_right  { text-align: right; }
+
+/* valign settings
+-------------------- */
+.valign_middle { vertical-align: middle; }
+.valign_top    { vertical-align: top; }
+.valign_bottom { vertical-align: bottom; }
